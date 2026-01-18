@@ -42,6 +42,7 @@ Development tools, debuggers, playgrounds, and utilities for JAM development.
 
 - [JAM Codec](https://codec.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - online encoder/decoder for JAM objects
 - [JamCode.Fun](https://jamcode.fun/) by [@Chainscore](https://github.com/Chainscore) - Browser-based IDE for building JAM services in Python, C, and C++
+- [jammin](https://github.com/FluffyLabs/jammin) by [@fluffylabs](https://github.com/FluffyLabs) - CLI toolbox for JAM service development, building, deployment, and testing ([docs](https://fluffylabs.dev/jammin/))
 - [JAM Search](https://search.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - Search tool for JAM-related resources and documentation
 - [JAM Service Playground](https://playground.jamcha.in/) by [@JamBrains](https://github.com/JamBrains) - Browser-based playground for coding JAM services in C using JamBrains SDK
 - [JAM State Viewer](https://state.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - Tool for visualizing and exploring JAM state
