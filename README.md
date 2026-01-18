@@ -52,7 +52,7 @@ Development tools, debuggers, playgrounds, and utilities for JAM development.
 Real-world examples and demonstration projects showcasing JAM services.
 
 - [jam-examples](https://github.com/tomusdrw/jam-examples) by [@tomusdrw](https://github.com/tomusdrw) - Collection of JAM service examples and tutorials in Rust using JamSDK
-- [jammin-create](https://github.com/jammin-create) - Template repositories for JAM SDKs ([JAM SDK](https://github.com/jammin-create/jammin-create-jam-sdk), [Jade](https://github.com/jammin-create/jammin-create-jade), [JAM-Brains](https://github.com/jammin-create/jammin-create-jambrains), [Undecided](https://github.com/jammin-create/jammin-create-undecided))
+- [jammin-create](https://github.com/jammin-create) - Template repositories for JAM SDKs ([Ajanta](https://github.com/jammin-create/jammin-create-ajanta), [JAM SDK](https://github.com/jammin-create/jammin-create-jam-sdk), [Jade](https://github.com/jammin-create/jammin-create-jade), [JAM-Brains](https://github.com/jammin-create/jammin-create-jambrains), [Undecided](https://github.com/jammin-create/jammin-create-undecided))
 - [Jade Examples](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Example services included in the Jade project
 
 ## Documentation
