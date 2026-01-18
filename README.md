@@ -32,6 +32,7 @@ The **Join-Accumulate Machine (JAM)** is a novel blockchain architecture develop
 
 Software development kits for building JAM services in various languages.
 
+- [Ajanta](https://github.com/Chainscore/ajanta) by [@Chainscore](https://github.com/Chainscore) - Python & C SDK for building and running services on JAM
 - [jam-sdk](https://hackmd.io/@polkadot/jamsdk) by [@paritytech](https://github.com/paritytech) - Official SDK for creating JAM Services in Rust
 - [Jade](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - JAM SDK & example services in Rust
 - [JamBrains service-sdk](https://github.com/JamBrains/service-sdk) by [@JamBrains](https://github.com/JamBrains) - SDK for creating JAM Services in C
