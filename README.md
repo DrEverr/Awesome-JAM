@@ -26,7 +26,6 @@ The **Join-Accumulate Machine (JAM)** is a novel blockchain architecture develop
 - **Flexible Service Model** - Define custom services with their own logic and state
 - **High Performance** - Optimized for throughput and scalability
 - **Interoperability** - Built-in support for cross-service communication
-- **Developer-Friendly** - Rich tooling and development environment
 
 ## SDKs
 
@@ -34,14 +33,15 @@ Software development kits for building JAM services in various languages.
 
 - [Ajanta](https://github.com/Chainscore/ajanta) by [@Chainscore](https://github.com/Chainscore) - Python & C SDK for building and running services on JAM
 - [jam-sdk](https://hackmd.io/@polkadot/jamsdk) by [@paritytech](https://github.com/paritytech) - Official SDK for creating JAM Services in Rust
-- [Jade](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - JAM SDK & example services in Rust
+- [Jade](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Community SDK for Rust Services
 - [JamBrains service-sdk](https://github.com/JamBrains/service-sdk) by [@JamBrains](https://github.com/JamBrains) - SDK for creating JAM Services in C
 
 ## Tools
 
 Development tools, debuggers, playgrounds, and utilities for JAM development.
 
-- [JAM Codec](https://codec.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - SCALE codec encoder/decoder for JAM development
+- [JAM Codec](https://codec.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - online encoder/decoder for JAM objects
+- [JamCode.Fun](https://jamcode.fun/) by [@Chainscore](https://github.com/Chainscore) - Browser-based IDE for building JAM services in Python, C, and C++
 - [JAM Search](https://search.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - Search tool for JAM-related resources and documentation
 - [JAM Service Playground](https://playground.jamcha.in/) by [@JamBrains](https://github.com/JamBrains) - Browser-based playground for coding JAM services in C using JamBrains SDK
 - [JAM State Viewer](https://state.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - Tool for visualizing and exploring JAM state
