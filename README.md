@@ -32,29 +32,29 @@ The **Join-Accumulate Machine (JAM)** is a novel blockchain architecture develop
 Software development kits for building JAM services in various languages.
 
 - [Ajanta](https://github.com/Chainscore/ajanta) by [@Chainscore](https://github.com/Chainscore) - Python & C SDK for building and running services on JAM
-- [jam-sdk](https://hackmd.io/@polkadot/jamsdk) by [@paritytech](https://github.com/paritytech) - Official SDK for creating JAM Services in Rust
 - [Jade](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Community SDK for Rust Services
+- [jam-sdk](https://hackmd.io/@polkadot/jamsdk) by [@paritytech](https://github.com/paritytech) - Official SDK for creating JAM Services in Rust
 - [JamBrains service-sdk](https://github.com/JamBrains/service-sdk) by [@JamBrains](https://github.com/JamBrains) - SDK for creating JAM Services in C
 
 ## Tools
 
 Development tools, debuggers, playgrounds, and utilities for JAM development.
 
-- [JAM Codec](https://codec.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - online encoder/decoder for JAM objects
-- [JamCode.Fun](https://jamcode.fun/) by [@Chainscore](https://github.com/Chainscore) - Browser-based IDE for building JAM services in Python, C, and C++
-- [jammin](https://github.com/FluffyLabs/jammin) by [@fluffylabs](https://github.com/FluffyLabs) - CLI toolbox for JAM service development, building, deployment, and testing ([docs](https://fluffylabs.dev/jammin/))
+- [JAM Codec](https://codec.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - Online encoder/decoder for JAM objects
 - [JAM Search](https://search.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - Search tool for JAM-related resources and documentation
 - [JAM Service Playground](https://playground.jamcha.in/) by [@JamBrains](https://github.com/JamBrains) - Browser-based playground for coding JAM services in C using JamBrains SDK
 - [JAM State Viewer](https://state.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - Tool for visualizing and exploring JAM state
+- [JamCode.Fun](https://jamcode.fun/) by [@Chainscore](https://github.com/Chainscore) - Browser-based IDE for building JAM services in Python, C, and C++
+- [jammin](https://github.com/FluffyLabs/jammin) by [@fluffylabs](https://github.com/FluffyLabs) - CLI toolbox for JAM service development, building, deployment, and testing ([docs](https://fluffylabs.dev/jammin/))
 - [PVM Debugger](https://github.com/FluffyLabs/pvm-debugger) by [@fluffylabs](https://github.com/FluffyLabs) - JAM PVM code debugger for debugging PolkaVM bytecode
 
 ## Examples & Demos
 
 Real-world examples and demonstration projects showcasing JAM services.
 
+- [Jade Examples](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Example services included in the Jade project
 - [jam-examples](https://github.com/tomusdrw/jam-examples) by [@tomusdrw](https://github.com/tomusdrw) - Collection of JAM service examples and tutorials in Rust using JamSDK
 - [jammin-create](https://github.com/jammin-create) - Template repositories for JAM SDKs ([Ajanta](https://github.com/jammin-create/jammin-create-ajanta), [JAM SDK](https://github.com/jammin-create/jammin-create-jam-sdk), [Jade](https://github.com/jammin-create/jammin-create-jade), [JAM-Brains](https://github.com/jammin-create/jammin-create-jambrains), [Undecided](https://github.com/jammin-create/jammin-create-undecided))
-- [Jade Examples](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Example services included in the Jade project
 
 ## Documentation
 
@@ -68,17 +68,17 @@ Official documentation, specifications, and technical references.
 
 Step-by-step guides and learning resources.
 
+- [JAM Services Tutorial](https://github.com/paritytech/jam_public/tree/main/services_tutorial) - A tutorial introducing JAM Service development, with the gradual construction of an example service and instructions to interact with it
 - [jam-examples](https://github.com/tomusdrw/jam-examples) - Includes tutorial-style examples for learning JAM service development
 - [Pala Labs JAM Content Map](https://palalabs.notion.site/) by [@pala_labs](https://x.com/pala_labs) - Comprehensive educational resources including JAM Tour lecture archives, thematic shorts, interviews, and documentary
-- [JAM services tutorial](https://github.com/paritytech/jam_public/tree/main/services_tutorial) - A tutorial introducing to JAM Service development, with the gradual construction of an example service and instructions to interact with it.
 
 ## Videos
 
 Conference talks, tutorials, and educational video content.
 
+- [PBA Bali 2025 Module 6 - How to JAM](https://www.youtube.com/watch?v=x-i30v1N3hY) - Tutorial on building with JAM
+- [PBA Bali 2025 Module 6 - JAM Services](https://www.youtube.com/watch?v=2bzVvoywPfs) - Deep dive into JAM Services
 - [PBA Bali 2025 Module 6 - JAM - Gavin Wood - The PBA Lecture](https://www.youtube.com/watch?v=XANhw95qOss) - Gavin Wood's JAM lecture at Polkadot Blockchain Academy
-- [PBA Bali 2025 - Module 6 - How to JAM](https://www.youtube.com/watch?v=x-i30v1N3hY) - Tutorial on building with JAM
-- [PBA Bali 2025 - Module 6 - JAM Services](https://www.youtube.com/watch?v=2bzVvoywPfs) - Deep dive into JAM Services
 - [PBA Bali 2025 Module 6 - JAM Core VM](https://www.youtube.com/watch?v=z2dyFVURlRI) - JAM Core Virtual Machine explained
 - [Yes, It Runs DOOM! Running Retro Games on the JAM Blockchain](https://www.youtube.com/watch?v=riyYJo-CKWE) - Demo of running DOOM on JAM
 
@@ -88,8 +88,8 @@ Blog posts, technical write-ups, and articles about JAM.
 
 ### Technical Deep Dives
 
-- [Demystifying JAM, Polkadot's game-changer](https://www.parity.io/blog/JAM-demystified-explainer) by Parity Technologies - Comprehensive technical explainer about JAM
 - [A Technical Overview of Polkadot's JAM Protocol](https://www.gate.com/learn/articles/a-technical-overview-of-polkadots-jam-protocol/62037) - Detailed technical analysis of the JAM protocol
+- [Demystifying JAM, Polkadot's game-changer](https://www.parity.io/blog/JAM-demystified-explainer) by Parity Technologies - Comprehensive technical explainer about JAM
 - [Why Polkadot's JAM is a Game-Changer for Blockchain Scalability](https://hackernoon.com/why-polkadots-jam-is-a-game-changer-for-blockchain-scalability) - HackerNoon article on JAM's scalability innovations
 
 ### Educational & Explainers
@@ -101,9 +101,9 @@ Blog posts, technical write-ups, and articles about JAM.
 
 ### Vision & Analysis
 
-- [JAM: Why Join-Accumulate Machine Is a Paradigm Shift for Web3 and AI Governance](https://medium.com/@buildwithbhavya/jam-why-join-accumulate-machine-is-a-paradigm-shift-for-web3-and-ai-governance-d3203769f0bd) by Bhavya Batra (May 2025) - Analysis of JAM's impact on Web3 and AI
 - [From Polkadot to Jam: Gavin Wood's Vision for Infinitely Scalable Blockchain Infrastructure](https://medium.com/@vjgaur/from-polkadot-to-jam-gavin-woods-vision-for-infinitely-scalable-blockchain-infrastructure-e625e29e8b29) by Vijay Gaur - Long-term vision for JAM
 - [How Polkadot 2.0 and JAM Transform Web3](https://medium.com/@stakeflow/how-polkadot-2-0-and-jam-transform-web3-56d9ce17804c) by Stakeflow (July 2025) - JAM's role in Polkadot 2.0
+- [JAM: Why Join-Accumulate Machine Is a Paradigm Shift for Web3 and AI Governance](https://medium.com/@buildwithbhavya/jam-why-join-accumulate-machine-is-a-paradigm-shift-for-web3-and-ai-governance-d3203769f0bd) by Bhavya Batra (May 2025) - Analysis of JAM's impact on Web3 and AI
 - [The Story of A.I. Agents and JAM](https://medium.com/@dwulf69/the-story-of-a-i-agents-and-jam-join-accumulate-machine-66a60a269aa7) by dwulf - Exploring AI agents on JAM
 
 ### Use Cases & Applications
@@ -127,43 +127,22 @@ Blog posts, technical write-ups, and articles about JAM.
 Connect with the JAM community and find additional resources.
 
 - [Decentralized JAM Competition](https://jam.web3.foundation/) - Web3 Foundation's initiative offering 10M DOT and 100K KSM for JAM client implementations
+- [JAM Conformance](https://github.com/davxy/jam-conformance/) - JAM Prize M1 conformance tests, traces, and fuzzer reports
 - [JAM Discord](https://discord.gg/amVfGfXu) - Join the JAM community Discord server
 - [JAM Gray Paper](https://graypaper.com/) - Official JAM specification and white paper
-- [Polkadot](https://polkadot.network/) - The ecosystem behind JAM
-- [JAM Conformance](https://github.com/davxy/jam-conformance/) - JAM Prize M1 conformance tests, traces, and fuzzer reports
 - [JAM Test Vectors](https://github.com/davxy/jam-test-vectors) - Codec and STF test vectors for JAM implementations
+- [Polkadot](https://polkadot.network/) - The ecosystem behind JAM
 
 ## Contributing
 
-We welcome contributions from the JAM community! This is a community-maintained resource and your contributions help make it better.
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
 
-### How to Contribute
+In short:
 
-1. **Fork this repository**
-2. **Add your resource** to the appropriate section
-3. **Follow the format**: `[Resource Name](url) by [@username](github-profile) - Brief description`
-4. **Submit a pull request**
-
-### Contribution Guidelines
-
-- Ensure resources are relevant to JAM development
-- Include clear descriptions
-- Check that links are working
-- Add new resources in alphabetical order within their section
-- For new categories, open an issue first to discuss
-- Maintain the awesome list spirit - quality over quantity
-
-### What to Contribute
-
-We're looking for:
-- SDKs and frameworks
-- Development tools and utilities
-- Example projects and demos
-- Documentation and guides
-- Tutorials and learning resources
-- Videos and presentations
-- Technical articles and blog posts
-- Community resources
+1. Fork the repository and create a branch
+2. Add your resource to the appropriate section using the format: `- [Name](url) by [@user](profile) - Description`
+3. Ensure alphabetical ordering within the section
+4. Submit a pull request with working links and a clear description
 
 ## License
 
