@@ -4,13 +4,14 @@ This document provides guidelines for AI coding agents working on the Awesome JA
 
 ## Repository Overview
 
-**Type**: Curated list / Documentation repository  
-**Primary Language**: Markdown  
-**Purpose**: A curated collection of JAM (Join-Accumulate Machine) resources, tools, examples, tutorials, and more  
+**Type**: Curated list / Documentation repository
+**Primary Language**: Markdown
+**Purpose**: A curated collection of JAM (Join-Accumulate Machine) resources, tools, examples, tutorials, and more
 **Main Files**:
-- `README.md` - Main curated list
+- `README.md` - Main curated list (primary content)
 - `CONTRIBUTING.md` - Contribution guidelines
 - `LICENSE` - MIT License
+- `AGENTS.md` - This file (AI agent guidelines)
 
 ## Repository Structure
 
@@ -21,6 +22,27 @@ Awesome-JAM/
 ├── LICENSE            # MIT License
 └── AGENTS.md          # This file
 ```
+
+## README Sections
+
+The main `README.md` is organized into these sections (in order):
+
+1. **About JAM** - Overview of JAM technology
+2. **SDKs** - Development kits for building JAM services
+3. **Tools** - Development tools, debuggers, playgrounds, utilities
+4. **Examples & Demos** - Real-world examples and demo projects
+5. **Documentation** - Official docs, specs, technical references
+6. **Tutorials** - Step-by-step guides and learning resources
+7. **Videos** - Conference talks, tutorials, educational content
+8. **Articles** - Blog posts and write-ups, with subsections:
+   - Technical Deep Dives
+   - Educational & Explainers
+   - Vision & Analysis
+   - Use Cases & Applications
+   - Events & News
+   - Developer Resources
+9. **Community & Resources** - Community links and additional resources
+10. **Contributing** - How to contribute (inline summary)
 
 ## Working with This Repository
 
@@ -43,12 +65,42 @@ When making changes, validate manually:
    - Maintain quality over quantity
    - Include the awesome badge in README
 
+4. **Table of Contents**:
+   - Ensure the Contents section in README matches the actual sections
+   - Anchor links must match heading text exactly
+
 ## Content Guidelines
+
+### Entry Format
+
+The standard entry format used throughout the README is:
+
+```markdown
+- [Resource Name](url) by [@username](github-profile) - Brief description
+```
+
+**Variations by section:**
+
+- **SDKs / Tools / Examples**: Standard format with GitHub profile attribution
+- **Documentation**: Standard format; some entries may omit attribution for official specs
+- **Tutorials**: Standard format; some entries may omit `by` attribution
+- **Videos**: Title links to YouTube/video URL, no `by` attribution (author in description if needed)
+  ```markdown
+  - [Video Title](youtube-url) - Brief description
+  ```
+- **Articles**: Include author name (not necessarily GitHub handle) and optional date
+  ```markdown
+  - [Article Title](url) by Author Name (Month Year) - Brief description
+  ```
+- **Community & Resources**: Standard format; some entries may omit attribution
+  ```markdown
+  - [Resource Name](url) - Brief description
+  ```
 
 ### Structure and Organization
 
 1. **Table of Contents**:
-   - Keep alphabetically ordered where appropriate
+   - Keep in sync with actual sections
    - Update TOC when adding new sections
    - Use consistent anchor link formatting
 
@@ -57,15 +109,10 @@ When making changes, validate manually:
    - Maintain consistent section naming
    - Use descriptive section headers
 
-3. **Entry Format**:
-   ```markdown
-   - [Resource Name](url) by [@username](github-profile) - Brief description
-   ```
-
-4. **Resource Ordering**:
-   - Within sections, order entries alphabetically by resource name
-   - For articles/videos with dates, consider chronological ordering
-   - Group subsections logically (e.g., Technical Deep Dives, Educational content)
+3. **Resource Ordering**:
+   - Within sections, order entries **alphabetically by resource name**
+   - For articles, order alphabetically within each subsection
+   - Group article subsections logically (Technical Deep Dives, Educational, etc.)
 
 ### Markdown Style
 
@@ -107,12 +154,14 @@ When making changes, validate manually:
    - Focus on facts, not opinions
 
 2. **Attributions**:
-   - Always credit original authors with `by [@username](profile-link)`
+   - Credit original authors with `by [@username](profile-link)` for code/tools
+   - For articles, use `by Author Name` (real name or handle as published)
    - Link to GitHub profiles when available
    - For organizations, link to their GitHub org page
 
 3. **Categorization**:
    - Place resources in the most appropriate section
+   - For articles, choose the best-fitting subsection
    - If unsure, suggest new category via issue/PR
    - Avoid duplicate entries across sections
 
@@ -154,7 +203,7 @@ update-[section-name]
 ### Pull Requests
 
 1. **Title**: Clear description of change
-2. **Description**: 
+2. **Description**:
    - What resource(s) are being added/changed
    - Why this resource is valuable
    - Any relevant context
@@ -169,23 +218,31 @@ update-[section-name]
 
 ### Adding a New Resource
 
-1. Determine the appropriate section
-2. Format entry according to guidelines
-3. Insert in alphabetical order (if applicable)
-4. Verify all links work
+1. Determine the appropriate section (see [README Sections](#readme-sections))
+2. Format entry according to the section's format variation
+3. Insert in alphabetical order within the section
+4. Verify all links work (use HTTPS)
+5. Commit with descriptive message (e.g., `Add [Name] to [Section]`)
+
+### Adding an Article
+
+1. Determine the best subsection under Articles (Technical Deep Dives, Educational, etc.)
+2. Format entry: `- [Title](url) by Author Name (Month Year) - Brief description`
+3. Insert in alphabetical order within the subsection
+4. Verify the article link works
 5. Commit with descriptive message
 
 ### Adding a New Section
 
 1. Consider if it fits the awesome list philosophy
-2. Add section header with proper level
-3. Update Table of Contents
+2. Add section header with proper level (`##` for top-level, `###` for subsections)
+3. Update Table of Contents in README
 4. Add initial resources (3+ recommended)
-5. Place section in logical position
+5. Place section in logical position relative to existing sections
 
 ### Fixing Broken Links
 
-1. Verify link is actually broken
+1. Verify link is actually broken (not a temporary issue)
 2. Search for updated/replacement URL
 3. Update or remove resource
 4. Document reason in commit message
@@ -203,9 +260,9 @@ Before submitting changes:
 
 - [ ] All links are functional and use HTTPS
 - [ ] Markdown syntax is correct
-- [ ] Entry format follows guidelines
+- [ ] Entry format follows guidelines for its section
 - [ ] Resources are in appropriate sections
-- [ ] Alphabetical ordering maintained
+- [ ] Alphabetical ordering maintained within sections
 - [ ] Attributions included
 - [ ] Descriptions are clear and concise
 - [ ] No duplicate entries
@@ -227,3 +284,6 @@ Before submitting changes:
 - Respect the **awesome list philosophy** - quality over quantity
 - When in doubt, open an **issue for discussion** before making major changes
 - Follow the existing **patterns and structure** in README.md
+- Pay attention to **section-specific format variations** (articles vs. tools vs. videos)
+- The Articles section has **subsections** - place articles in the correct one
+- Keep the **Table of Contents** in sync with actual section headings
