@@ -70,6 +70,7 @@ Step-by-step guides and learning resources.
 
 - [jam-examples](https://github.com/tomusdrw/jam-examples) - Includes tutorial-style examples for learning JAM service development
 - [Pala Labs JAM Content Map](https://palalabs.notion.site/) by [@pala_labs](https://x.com/pala_labs) - Comprehensive educational resources including JAM Tour lecture archives, thematic shorts, interviews, and documentary
+- [JAM services tutorial](https://github.com/paritytech/jam_public/tree/main/services_tutorial) - A tutorial introducing to JAM Service development, with the gradual construction of an example service and instructions to interact with it.
 
 ## Videos
 
