@@ -1,67 +1,118 @@
-# Contributing to JAM Service Demos
+# Contributing to Awesome JAM
 
-Thank you for your interest in contributing to the JAM Service Demos repository! This document provides guidelines for contributing to this curated list of JAM (Join-Accumulate Machine) service examples.
+Thank you for your interest in contributing to Awesome JAM! This is a community-maintained curated list of JAM (Join-Accumulate Machine) resources, tools, examples, tutorials, and more. Your contributions help make this a better resource for the entire JAM community.
 
 ## How to Contribute
 
-### Adding Your JAM Service Examples
-
-We welcome JAM service examples from developers of all skill levels. Here's how to add your contribution:
+### Adding a New Resource
 
 1. **Fork the Repository**: Create a fork of this repository on GitHub
-2. **Create a Branch**: Create a new branch for your contribution
-3. **Add Your Entry**: Add your JAM service example to the appropriate section in the README.md
-4. **Test Your Changes**: Ensure all links work and formatting is correct
+2. **Create a Branch**: Create a new branch for your contribution (e.g., `add-resource-name`)
+3. **Add Your Entry**: Add your resource to the appropriate section in `README.md`
+4. **Verify Your Changes**: Ensure all links work and formatting is correct
 5. **Submit a Pull Request**: Create a pull request with a clear description of your addition
 
-### Entry Requirements
+### What to Contribute
 
-To ensure quality and consistency, please ensure your JAM service examples meet these criteria:
+We welcome contributions across all sections of the list:
 
-- **Working Code**: The repository should contain functional JAM service code
-- **Documentation**: Include a clear README.md in your repository explaining:
-  - What the service does
-  - How to run/deploy it
-  - Any dependencies or requirements
-  - Examples of usage
-- **Code Quality**: Code should be well-structured and follow best practices
-- **Open Source**: The repository should be publicly accessible on GitHub
+- **SDKs** - Development kits for building JAM services in various languages
+- **Tools** - Development tools, debuggers, playgrounds, and utilities
+- **Examples & Demos** - Real-world examples and demonstration projects
+- **Documentation** - Official docs, specifications, and technical references
+- **Tutorials** - Step-by-step guides and learning resources
+- **Videos** - Conference talks, tutorials, and educational video content
+- **Articles** - Blog posts, technical write-ups, and analysis pieces
+- **Community & Resources** - Community links and additional resources
 
-### Entry Format
+## Entry Format
 
-When adding your entry, please use this format:
-
-```markdown
-#### Your Name/Handle
-**Repository**: [repository-name](https://github.com/yourusername/repository-name)  
-**Description**: A concise description of what your JAM service does and what it demonstrates.
-```
-
-Also add yourself to the contributors table:
+When adding your entry, use this format:
 
 ```markdown
-| Your Name | [@yourusername](https://github.com/yourusername) | [repository-name](https://github.com/yourusername/repository-name) | Brief description |
+- [Resource Name](url) by [@username](github-profile) - Brief description
 ```
 
-### Content Guidelines
+**Examples:**
 
-- **Relevance**: Ensure your contribution is specifically related to JAM services
-- **Quality**: Submissions should demonstrate good coding practices and be educational
-- **Originality**: Please don't duplicate existing entries
-- **Description**: Keep descriptions concise but informative (1-2 sentences)
-- **Links**: Ensure all links are working and point to the correct repositories
+```markdown
+- [jam-sdk](https://hackmd.io/@polkadot/jamsdk) by [@paritytech](https://github.com/paritytech) - Official SDK for creating JAM Services in Rust
+- [PVM Debugger](https://github.com/FluffyLabs/pvm-debugger) by [@fluffylabs](https://github.com/FluffyLabs) - JAM PVM code debugger for debugging PolkaVM bytecode
+```
 
-### What Not to Include
+**Format rules:**
 
-- Broken or non-functional code
-- Repositories without proper documentation
+- Use `-` for list items
+- Link the resource name to the primary URL (repo, website, or docs)
+- Credit the author with `by [@username](github-profile-url)`
+- For organizations, link to the GitHub organization page
+- End with a concise description (1-2 sentences)
+- Use HTTPS for all links
+
+### Articles Section
+
+Articles are organized into subsections. Place your article in the most appropriate one:
+
+- **Technical Deep Dives** - In-depth technical analysis and explanations
+- **Educational & Explainers** - Beginner-friendly introductions and overviews
+- **Vision & Analysis** - Forward-looking analysis and ecosystem impact
+- **Use Cases & Applications** - Real-world applications and implementations
+- **Events & News** - Event coverage and news articles
+- **Developer Resources** - Developer-focused resources and opportunities
+
+For articles, include the author and optionally a date:
+
+```markdown
+- [Article Title](url) by Author Name (Month Year) - Brief description
+```
+
+## Entry Requirements
+
+To ensure quality and consistency, please verify the following before submitting:
+
+- **Working Links**: All URLs must be accessible (no 404s)
+- **Relevance**: The resource must be specifically related to JAM development
+- **Quality**: Resources should add value to developers and learners
+- **Descriptions**: Keep descriptions concise, factual, and informative (1-2 sentences)
+- **No Duplicates**: Check that the resource isn't already listed
+- **Alphabetical Order**: Insert entries in alphabetical order within their section (by resource name)
+- **HTTPS**: Use HTTPS for all external links
+
+## What Not to Include
+
+- Broken or non-functional links
+- Resources without proper documentation (for code repositories)
 - Duplicate entries
-- Content not related to JAM services
+- Content not related to JAM
 - Promotional material or spam
+- Low-quality or misleading content
+
+## Pull Request Guidelines
+
+When submitting a pull request:
+
+1. **Title**: Use a clear, descriptive title (e.g., "Add [Resource Name] to [Section]")
+2. **Description**: Explain what you're adding and why it's valuable
+3. **Checklist**:
+   - [ ] Links are working and use HTTPS
+   - [ ] Entry follows the format guidelines
+   - [ ] Description is clear and concise
+   - [ ] Entry is in alphabetical order within its section
+   - [ ] Attribution is included
+   - [ ] No duplicate entries
+
+## Proposing New Sections
+
+If you think a new section is needed:
+
+1. Open an issue first to discuss the proposed section
+2. Explain what resources it would contain and why it warrants a separate section
+3. Aim for at least 3 initial resources to justify a new section
+4. Follow the [awesome list manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md) principles
 
 ## Reporting Issues
 
-If you find any issues with existing entries (broken links, outdated information, etc.), please:
+If you find problems with existing entries (broken links, outdated information, etc.):
 
 1. Open an issue describing the problem
 2. Include the specific entry that has the issue
@@ -69,11 +120,11 @@ If you find any issues with existing entries (broken links, outdated information
 
 ## Questions?
 
-If you have questions about contributing, feel free to:
+If you have questions about contributing:
 
 - Open an issue for discussion
 - Check existing issues and pull requests for similar questions
-- Review the main README.md for more context about JAM services
+- Review the main `README.md` for context about the list structure
 
 ## Code of Conduct
 
