@@ -129,6 +129,8 @@ Connect with the JAM community and find additional resources.
 - [JAM Discord](https://discord.gg/amVfGfXu) - Join the JAM community Discord server
 - [JAM Gray Paper](https://graypaper.com/) - Official JAM specification and white paper
 - [Polkadot](https://polkadot.network/) - The ecosystem behind JAM
+- [JAM Conformance](https://github.com/davxy/jam-conformance/) - JAM Prize M1 conformance tests, traces, and fuzzer reports
+- [JAM Test Vectors](https://github.com/davxy/jam-test-vectors) - Codec and STF test vectors for JAM implementations
 
 ## Contributing
 
