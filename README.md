@@ -34,6 +34,7 @@ Software development kits for building JAM services in various languages.
 - [Ajanta](https://github.com/Chainscore/ajanta) by [@Chainscore](https://github.com/Chainscore) - Python & C SDK for building and running services on JAM
 - [Jade](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Community SDK for Rust Services
 - [jam-sdk](https://hackmd.io/@polkadot/jamsdk) by [@paritytech](https://github.com/paritytech) - Official SDK for creating JAM Services in Rust
+- [jamc3.c3l](https://github.com/DrEverr/jamc3.c3l) by [@DrEverr](https://github.com/DrEverr) - SDK for creating JAM Services in C3, with host function bindings, codec, storage, and entry point dispatch
 - [JamBrains service-sdk](https://github.com/JamBrains/service-sdk) by [@JamBrains](https://github.com/JamBrains) - SDK for creating JAM Services in C
 
 ## Tools
@@ -45,6 +46,7 @@ Development tools, debuggers, playgrounds, and utilities for JAM development.
 - [JAM Service Playground](https://playground.jamcha.in/) by [@JamBrains](https://github.com/JamBrains) - Browser-based playground for coding JAM services in C using JamBrains SDK
 - [JAM State Viewer](https://state.fluffylabs.dev/) by [@fluffylabs](https://github.com/FluffyLabs) - Tool for visualizing and exploring JAM state
 - [JamCode.Fun](https://jamcode.fun/) by [@Chainscore](https://github.com/Chainscore) - Browser-based IDE for building JAM services in Python, C, and C++
+- [JAMC3](https://github.com/DrEverr/JAMC3) by [@DrEverr](https://github.com/DrEverr) - Docker-based build tool that compiles C3 source code into `.jam` blobs for PolkaVM
 - [jammin](https://github.com/FluffyLabs/jammin) by [@fluffylabs](https://github.com/FluffyLabs) - CLI toolbox for JAM service development, building, deployment, and testing ([docs](https://fluffylabs.dev/jammin/))
 - [PVM Debugger](https://github.com/FluffyLabs/pvm-debugger) by [@fluffylabs](https://github.com/FluffyLabs) - JAM PVM code debugger for debugging PolkaVM bytecode
 
@@ -54,6 +56,7 @@ Real-world examples and demonstration projects showcasing JAM services.
 
 - [Jade Examples](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Example services included in the Jade project
 - [jam-examples](https://github.com/tomusdrw/jam-examples) by [@tomusdrw](https://github.com/tomusdrw) - Collection of JAM service examples and tutorials in Rust using JamSDK
+- [JAMC3 Examples](https://github.com/DrEverr/JAMC3/tree/main/examples) by [@DrEverr](https://github.com/DrEverr) - Example JAM services written in C3
 - [jammin-create](https://github.com/jammin-create) - Template repositories for JAM SDKs ([Ajanta](https://github.com/jammin-create/jammin-create-ajanta), [JAM SDK](https://github.com/jammin-create/jammin-create-jam-sdk), [Jade](https://github.com/jammin-create/jammin-create-jade), [JAM-Brains](https://github.com/jammin-create/jammin-create-jambrains), [Undecided](https://github.com/jammin-create/jammin-create-undecided))
 
 ## Documentation
