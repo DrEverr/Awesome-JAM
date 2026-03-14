@@ -34,7 +34,7 @@ Software development kits for building JAM services in various languages.
 - [Ajanta](https://github.com/Chainscore/ajanta) by [@Chainscore](https://github.com/Chainscore) - Python & C SDK for building and running services on JAM
 - [Jade](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Community SDK for Rust Services
 - [jam-sdk](https://hackmd.io/@polkadot/jamsdk) by [@paritytech](https://github.com/paritytech) - Official SDK for creating JAM Services in Rust
-- [jamc3.c3l](https://github.com/DrEverr/jamc3.c3l) by [@DrEverr](https://github.com/DrEverr) - SDK for creating JAM Services in C3, with host function bindings, codec, storage, and entry point dispatch
+- [jamc3](https://github.com/DrEverr/jamc3.c3l) by [@DrEverr](https://github.com/DrEverr) - SDK for creating JAM Services in C3
 - [JamBrains service-sdk](https://github.com/JamBrains/service-sdk) by [@JamBrains](https://github.com/JamBrains) - SDK for creating JAM Services in C
 
 ## Tools
