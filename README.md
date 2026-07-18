@@ -36,6 +36,7 @@ Software development kits for building JAM services in various languages.
 - [jam-sdk](https://hackmd.io/@polkadot/jamsdk) by [@paritytech](https://github.com/paritytech) - Official SDK for creating JAM Services in Rust
 - [jamc3](https://github.com/DrEverr/jamc3.c3l) by [@DrEverr](https://github.com/DrEverr) - SDK for creating JAM Services in C3
 - [JamBrains service-sdk](https://github.com/JamBrains/service-sdk) by [@JamBrains](https://github.com/JamBrains) - SDK for creating JAM Services in C
+- [as-lan](https://github.com/tomusdrw/as-lan) by [@tomusdrw](https://github.com/tomusdrw) - AssemblyScript SDK for JAM Services
 
 ## Tools
 
@@ -57,7 +58,7 @@ Real-world examples and demonstration projects showcasing JAM services.
 - [Jade Examples](https://github.com/spacejamapp/jade) by [@spacejamapp](https://github.com/spacejamapp) - Example services included in the Jade project
 - [jam-examples](https://github.com/tomusdrw/jam-examples) by [@tomusdrw](https://github.com/tomusdrw) - Collection of JAM service examples and tutorials in Rust using JamSDK
 - [JAMC3 Examples](https://github.com/DrEverr/JAMC3/tree/main/examples) by [@DrEverr](https://github.com/DrEverr) - Example JAM services written in C3
-- [jammin-create](https://github.com/jammin-create) - Template repositories for JAM SDKs ([Ajanta](https://github.com/jammin-create/jammin-create-ajanta), [JAM SDK](https://github.com/jammin-create/jammin-create-jam-sdk), [Jade](https://github.com/jammin-create/jammin-create-jade), [JAM-Brains](https://github.com/jammin-create/jammin-create-jambrains), [Undecided](https://github.com/jammin-create/jammin-create-undecided))
+- [jammin-create](https://github.com/jammin-create) - Template repositories for JAM SDKs ([Ajanta](https://github.com/jammin-create/jammin-create-ajanta), [JAM SDK](https://github.com/jammin-create/jammin-create-jam-sdk), [Jade](https://github.com/jammin-create/jammin-create-jade), [JAM-Brains](https://github.com/jammin-create/jammin-create-jambrains), [aslan](https://github.com/jammin-create/jammin-create-aslan), [Undecided](https://github.com/jammin-create/jammin-create-undecided))
 
 ## Documentation
 
